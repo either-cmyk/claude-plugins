@@ -5,20 +5,27 @@
   },
   "metadata": {
     "description": "이더컴퍼니 사내 운영 자동화 Claude Code 플러그인 모음",
-    "version": "1.0.0"
+    "version": "1.1.0"
   },
   "plugins": [
     {
       "name": "n-value-calculator",
       "source": "./plugins/n-value-calculator",
       "description": "CN인사이더 발주의 1위안당 원화(N값)를 자동 계산하여 수입원가 구글시트에 입력하는 스킬. 청구서·정산서 PDF에서 환율·관세·부가세를 추출하고, K=C*0.01*P / M=(C+D)*P+SUM(E:L) / N=M/C 수식으로 통관 완료 원화 단가를 산출한다.",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "author": {
         "name": "이더컴퍼니"
       },
       "category": "automation",
-      "tags": ["import", "logistics", "korea", "china", "spreadsheet", "customs", "cn인사이더"]
+      "tags": [
+        "import",
+        "logistics",
+        "korea",
+        "china",
+        "spreadsheet",
+        "customs",
+        "cn인사이더"
+      ]
     }
   ]
 }
-
